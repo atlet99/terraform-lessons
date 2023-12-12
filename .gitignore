@@ -36,3 +36,6 @@ terraform.rc
 
 # Exclude variable.tf file,which are likely to contain sensitive data
 variable.tf
+
+# Exclude lock file with provider version
+.lock.hcl
